@@ -1,4 +1,4 @@
-#Installer cx_Oracle d'abord via Pip
+#Installez cx_Oracle d'abord via Pip
 import cx_Oracle
 
 # Définir les détails de connexion Oracle
