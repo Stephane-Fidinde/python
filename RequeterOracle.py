@@ -1,9 +1,9 @@
 #Installez cx_Oracle d'abord via Pip
 import cx_Oracle
 
-# Définir les détails de connexion Oracle
-data = cx_Oracle.makedsn('hostname', 'port', nom_db='nom_db')
-connection = cx_Oracle.connect(user='username', password='password', dsn=data)
+# Définir les détails de connexion Oracle Remplacez les 3 valeurs de paramètres avec les votres
+data = cx_Oracle.makedsn('hostnameXXXX', 'portXXX', nom_db='nom_dbXXXX')
+connection = cx_Oracle.connect(user='usernameXXX', password='passwordXXX', dsn=data)
 
 # Créer un curseur
 cursor = connection.cursor()
